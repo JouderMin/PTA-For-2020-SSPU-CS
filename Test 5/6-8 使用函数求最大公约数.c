@@ -19,5 +19,6 @@ int gcd(int x, int y) {
         y = x;
         x = t;
     }
+    
     return y == 0 ? x : gcd(y, x % y);
 }
