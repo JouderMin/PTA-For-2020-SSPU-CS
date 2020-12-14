@@ -8,7 +8,6 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         scanf("%d", &num[i]);
     }
-
     for (int i = 0; i < n - 1; i++) {
         index = i;
         for (int j = i + 1; j < n; j++) {
