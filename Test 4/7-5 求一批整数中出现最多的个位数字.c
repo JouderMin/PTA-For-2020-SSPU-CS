@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+
+int main(void) {
     int n, a[1000], i, s, m, max, k = 0, t = 0;
     static int n0, n1, n2, n3, n4, n5, n6, n7, n8, n9;
     int b[10], c[10];

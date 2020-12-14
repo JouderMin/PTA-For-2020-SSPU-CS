@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i, max, cnt = 0;
     scanf("%d", &i);
     int num[i];
