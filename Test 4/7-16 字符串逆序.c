@@ -5,7 +5,7 @@ int main(void) {
     char str[81];
     int i, len;
     char ch;
-    
+
     gets(str);
     len = strlen(str);
     for (i = 0; i < len / 2; ++i) {

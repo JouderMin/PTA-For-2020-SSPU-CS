@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAXN 20
 
-void delchar(char *str, char c);
+void delchar(char * str, char c);
 void ReadString(char s[]); /* 由裁判实现，略去不表 */
 
 int main(void) {
@@ -17,7 +17,7 @@ int main(void) {
 
 #include <string.h>
 
-void delchar(char *str, char c) {
+void delchar(char * str, char c) {
     char s[MAXN];
     if (str[0]) {
         for (int i = 0, j = 0; str[i]; i++, j++) {

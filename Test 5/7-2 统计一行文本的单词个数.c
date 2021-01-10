@@ -3,7 +3,7 @@
 int main(void) {
     char c, str[1000];
     int i, count = 0, number = 0;
-    
+
     gets(str);
     for (i = 0;; i++) {
         c = str[i];

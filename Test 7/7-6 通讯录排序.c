@@ -6,7 +6,7 @@ struct friend {
     char tel[18];
 };
 
-void swap(struct friend *a, struct friend *b) {
+void swap(struct friend * a, struct friend * b) {
     struct friend temp;
     temp = *b;
     *b   = *a;

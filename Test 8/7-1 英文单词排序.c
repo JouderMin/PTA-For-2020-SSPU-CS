@@ -6,7 +6,7 @@ struct word_node {
     int length;
 };
 
-void swap(struct word_node *a, struct word_node *b) {
+void swap(struct word_node * a, struct word_node * b) {
     struct word_node temp;
 
     temp = *b;
@@ -14,7 +14,7 @@ void swap(struct word_node *a, struct word_node *b) {
     *a   = temp;
 }
 
-void sort(struct word_node *a, int length) {
+void sort(struct word_node * a, int length) {
     for (int i = 1; i < length; i++) {
         for (int j = 0; j < length - 1; j++) {
             if (a[j].length > a[j + 1].length) {

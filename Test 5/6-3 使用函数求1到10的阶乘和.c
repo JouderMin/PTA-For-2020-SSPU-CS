@@ -7,11 +7,11 @@ int main(void) {
     double sum;
 
     sum = 0;
-    for (i = 1; i <= 10; i++){
+    for (i = 1; i <= 10; i++) {
         sum = sum + fact(i);
     }
     printf("1!+2!+...+10! = %f\n", sum);
-    
+
     return 0;
 }
 

@@ -14,4 +14,6 @@ int main(void) {
 
 #include <math.h>
 
-double calc_pow(double x, int n) { return pow(x, n); }
+double calc_pow(double x, int n) {
+    return pow(x, n);
+}

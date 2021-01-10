@@ -30,7 +30,7 @@ int fib(int n) {
 
 void PrintFN(int m, int n) {
     int count = 0, a = 1, b = 1, t;
-    
+
     while (b <= n) {
         if (b >= m) {
             if (b == 1) {

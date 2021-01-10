@@ -2,7 +2,7 @@
 
 #define MAXS 10
 
-char *match(char *s, char ch1, char ch2);
+char * match(char * s, char ch1, char ch2);
 
 int main(void) {
     char str[MAXS], ch_start, ch_end, *p;
@@ -19,9 +19,9 @@ int main(void) {
 
 char kong = '\0';
 
-char *match(char *s, char ch1, char ch2) {
+char * match(char * s, char ch1, char ch2) {
     int n       = strlen(s);
-    char *p     = NULL;
+    char * p    = NULL;
     _Bool isCh1 = 0;
 
     for (int i = 0; i < n; i++) {

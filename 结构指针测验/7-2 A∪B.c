@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sort(int *a, int n) {
+void sort(int * a, int n) {
     int temp;
 
     for (int i = 1; i < n; i++) {

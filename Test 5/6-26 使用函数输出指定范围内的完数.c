@@ -35,7 +35,7 @@ int factorsum(int number) {
 
 void PrintPN(int m, int n) {
     int num = m, a = 0, i = 2;
-    
+
     while (num <= n) {
         if (factorsum(num) == num) {
             printf("%d = %d", num, 1);

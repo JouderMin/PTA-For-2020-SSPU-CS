@@ -7,7 +7,9 @@ struct cast {
     float out;
 };
 
-float getTrue(struct cast a) { return a.basic + a.flow - a.out; }
+float getTrue(struct cast a) {
+    return a.basic + a.flow - a.out;
+}
 
 int main(void) {
     int num;

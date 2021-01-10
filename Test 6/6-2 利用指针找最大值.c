@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void findmax(int *px, int *py, int *pmax);
+void findmax(int * px, int * py, int * pmax);
 
 int main(void) {
     int max, x, y;
@@ -12,4 +12,6 @@ int main(void) {
     return 0;
 }
 
-void findmax(int *px, int *py, int *pmax) { *pmax = *px > *py ? *px : *py; }
+void findmax(int * px, int * py, int * pmax) {
+    *pmax = *px > *py ? *px : *py;
+}

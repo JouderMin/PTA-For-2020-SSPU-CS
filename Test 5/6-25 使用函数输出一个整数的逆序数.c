@@ -28,7 +28,7 @@ int reverse(int number) {
     for (int j = i - 1, a = 0; j >= 0; j--, a++) {
         output += num[j] * pow(10, a);
     }
-    
+
     if (isPositive) {
         return output;
     } else {

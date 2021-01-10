@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sum_diff(float op1, float op2, float *psum, float *pdiff);
+void sum_diff(float op1, float op2, float * psum, float * pdiff);
 
 int main(void) {
     float a, b, sum, diff;
@@ -12,7 +12,7 @@ int main(void) {
     return 0;
 }
 
-void sum_diff(float op1, float op2, float *psum, float *pdiff){
-    *psum = op1 + op2;
+void sum_diff(float op1, float op2, float * psum, float * pdiff) {
+    *psum  = op1 + op2;
     *pdiff = op1 - op2;
 }

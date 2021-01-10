@@ -5,11 +5,11 @@
 #define MAXN 10
 #define MAXS 20
 
-int max_len(char *s[], int n);
+int max_len(char * s[], int n);
 
 int main(void) {
     int i, n;
-    char *string[MAXN] = {NULL};
+    char * string[MAXN] = {NULL};
 
     scanf("%d", &n);
     for (i = 0; i < n; i++) {
@@ -21,7 +21,7 @@ int main(void) {
     return 0;
 }
 
-int max_len(char *s[], int n) {
+int max_len(char * s[], int n) {
     int max, count;
 
     max = strlen(s[0]);

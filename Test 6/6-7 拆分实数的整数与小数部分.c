@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void splitfloat(float x, int *intpart, float *fracpart);
+void splitfloat(float x, int * intpart, float * fracpart);
 
 int main(void) {
     float x, fracpart;
@@ -14,7 +14,7 @@ int main(void) {
     return 0;
 }
 
-void splitfloat(float x, int *intpart, float *fracpart) {
+void splitfloat(float x, int * intpart, float * fracpart) {
     *intpart  = (int)x;
     *fracpart = x - *intpart;
 }

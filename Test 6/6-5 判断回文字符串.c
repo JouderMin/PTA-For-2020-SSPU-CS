@@ -4,7 +4,7 @@
 #define MAXN 20
 typedef enum { false, true } bool;
 
-bool palindrome(char *s);
+bool palindrome(char * s);
 
 int main(void) {
     char s[MAXN];
@@ -19,7 +19,7 @@ int main(void) {
     return 0;
 }
 
-bool palindrome(char *s) {
+bool palindrome(char * s) {
     int i, j;
 
     for (i = 0; i < 100; i++) {

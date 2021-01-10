@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define MAXS 15
 
-void StringCount(char *s);
-void ReadString(char *s); /* 由裁判实现，略去不表 */
+void StringCount(char * s);
+void ReadString(char * s); /* 由裁判实现，略去不表 */
 
 int main(void) {
     char s[MAXS];
@@ -13,7 +13,7 @@ int main(void) {
     return 0;
 }
 
-void StringCount(char *s) {
+void StringCount(char * s) {
     int upper = 0, lower = 0, num = 0, space = 0, other = 0;
 
     for (int i = 0; s[i]; i++) {

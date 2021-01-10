@@ -3,7 +3,7 @@
 
 #define MAXS 80
 
-int getindex(char *s);
+int getindex(char * s);
 
 int main(void) {
     int n;
@@ -19,7 +19,7 @@ int main(void) {
     return 0;
 }
 
-int getindex(char *s) {
+int getindex(char * s) {
     if (!strcmp(s, "Sunday")) {
         return 0;
     } else if (!strcmp(s, "Monday")) {

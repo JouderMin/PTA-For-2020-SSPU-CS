@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAXN 20
 
-void strmcpy(char *t, int m, char *s);
+void strmcpy(char * t, int m, char * s);
 void ReadString(char s[]); /* 由裁判实现，略去不表 */
 
 int main(void) {
@@ -18,7 +18,7 @@ int main(void) {
 
 #include <string.h>
 
-void strmcpy(char *t, int m, char *s) {
+void strmcpy(char * t, int m, char * s) {
     int tLength = strlen(t), i;
 
     if (m <= tLength) {

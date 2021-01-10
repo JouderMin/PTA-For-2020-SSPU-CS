@@ -8,7 +8,9 @@ struct student {
     int result_3;
 };
 
-int getTotal(struct student a) { return a.result_1 + a.result_2 + a.result_3; }
+int getTotal(struct student a) {
+    return a.result_1 + a.result_2 + a.result_3;
+}
 
 int main(void) {
     int n;
@@ -16,7 +18,8 @@ int main(void) {
     struct student student[n], max;
 
     for (int i = 0; i < n; i++) {
-        scanf("%d %10s %d %d %d", &student[i].num, student[i].name, &student[i].result_1, &student[i].result_2, &student[i].result_3);
+        scanf("%d %10s %d %d %d", &student[i].num, student[i].name, &student[i].result_1, &student[i].result_2,
+              &student[i].result_3);
     }
     max = student[0];
     for (int i = 0; i < n; i++) {

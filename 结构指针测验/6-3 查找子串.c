@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAXS 30
 
-char *search(char *s, char *t);
+char * search(char * s, char * t);
 void ReadString(char s[]); /* 裁判提供，细节不表 */
 
 int main(void) {
@@ -18,7 +18,7 @@ int main(void) {
     return 0;
 }
 
-char *search(char *s, char *t) {
+char * search(char * s, char * t) {
     int i = 0, j = 0, k = 0;
     int m = strlen(s);
     int n = strlen(t);

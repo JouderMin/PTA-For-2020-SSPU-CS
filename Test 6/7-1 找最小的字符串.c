@@ -12,7 +12,7 @@ int main(void) {
         if (strcmp(min, temp) >= 0) {
             strcpy(min, temp);
         }
-        strcpy(temp,"\0");
+        strcpy(temp, "\0");
     }
     printf("Min is: %s", min);
 

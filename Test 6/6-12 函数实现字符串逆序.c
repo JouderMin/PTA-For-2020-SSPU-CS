@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define MAXS 20
 
-void f(char *p);
-void ReadString(char *s); /* 由裁判实现，略去不表 */
+void f(char * p);
+void ReadString(char * s); /* 由裁判实现，略去不表 */
 
 int main(void) {
     char s[MAXS];
@@ -16,8 +16,8 @@ int main(void) {
 
 #include <string.h>
 
-void f(char *p) {
-    size_t n = strlen(p),i;
+void f(char * p) {
+    size_t n = strlen(p), i;
     char re[MAXS];
 
     for (i = 0; p[i]; i++) {

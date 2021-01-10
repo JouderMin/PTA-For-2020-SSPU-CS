@@ -8,7 +8,7 @@ struct student {
     char grade;
 };
 
-int set_grade(struct student *p, int n);
+int set_grade(struct student * p, int n);
 
 int main(void) {
     struct student stu[MAXN], *ptr;
@@ -27,7 +27,7 @@ int main(void) {
     return 0;
 }
 
-int set_grade(struct student *p, int n) {
+int set_grade(struct student * p, int n) {
     int failure = 0;
 
     for (int i = 0; i < n; i++) {
